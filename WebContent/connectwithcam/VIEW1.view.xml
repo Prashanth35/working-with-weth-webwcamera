@@ -1,0 +1,14 @@
+<core:View xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m"
+		controllerName="connectwithcam.VIEW1" xmlns:html="http://www.w3.org/1999/xhtml">
+	<Page title="ACCESSING CAMERA">
+		<content>
+		<Button text="stop"   press="stopWebcam();"/>
+		<Button text="snapshot"   press="snapshot();"/>
+		
+		<Button text="video" press="onpress"/>
+<html:video id="video" width="1200" height="600"  autoplay="true">   </html:video>
+<html:canvas id="canvas" width="1200" height="500">   </html:canvas>
+
+		</content>
+	</Page>
+</core:View>
